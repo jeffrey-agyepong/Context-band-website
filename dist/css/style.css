@@ -18,7 +18,10 @@ body {
 }
 
 .logo {
-  width: 60%;
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 250px;
 }
 .parallax-container {
   height: 700px;
@@ -71,8 +74,9 @@ hr {
 .sticky {
   position: fixed;
   top: 0px;
+  left: 0;
+  right: 0;
   width: 100%;
-
   z-index: 2;
 }
 .mg {
@@ -83,6 +87,9 @@ hr {
 }
 
 @media (min-width: 600px) {
+  .logo {
+    width: 60%;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
