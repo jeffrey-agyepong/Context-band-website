@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -10,26 +15,19 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  color: white;
 }
 
-img {
+.logo {
   width: 60%;
 }
-
-.hero {
-  background: url('../img/hero.jpg') no-repeat top center/cover;
-  position: absolute;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+.parallax img {
+  height: 120vh !important;
 }
-
+.page-section {
+  padding: 1.25rem;
+}
 nav ul a {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 993px) {
@@ -39,4 +37,56 @@ nav ul a {
 }
 
 @media only screen and (min-width: 600px) {
+}
+
+hr {
+  width: 50px;
+}
+
+.btn {
+  border-radius: 10rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+}
+.album-cover {
+  width: 500px;
+  padding: 1.25rem;
+}
+.p-50 {
+  padding: 50px;
+}
+
+.bg-dark {
+  background: black;
+}
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  z-index: 2;
+}
+.mg {
+  margin: auto;
+}
+.mb {
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parallax img {
+    height: 110vh !important;
+  }
 }

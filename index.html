@@ -10,34 +10,93 @@
 </head>
 
 <body>
-  <nav class="white sticky" role="navigation">
+  <nav class="black sticky" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="dist/img/logo.jpg" alt="Context Logo"></a>
+      <a id="logo-container" href="#" class="brand-logo"><img src="dist/img/logo2.webp" alt="Context Logo"
+          class="logo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Bio</a></li>
-        <li><a href="#">Music</a></li>
+        <li><a href="#Bio">Bio</a></li>
+        <li><a href="music.html">Music</a></li>
         <li><a href="#">Videos</a></li>
       </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#Bio">Bio</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="#">Videos</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
     </div>
   </nav>
+
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center black-text">Context</h1>
+
+        <h1 class="header center white-text text-lighten-1">Context</h1>
+
         <div class="row center">
-          <h5 class="header col s12 black-text">Christian Metal band</h5>
+          <h5 class="header col s12 white-text">Christian Metalcore </h5>
         </div>
         <div class="row center">
-          <a href="download-button" class="btn-large waves-effect waves-light teal lighten1"> Learn More</a>
+          <a href="download-button" class="btn-large waves-effect waves-light white black-text btn"> Learn More</a>
         </div>
-      </div>
-      <div class="hero">
-        <!--<img src="dist/img/hero.jpg" alt="">-->
+        <br><br>
       </div>
     </div>
+
+    <div class="parallax">
+      <img src="dist/img/hero.jpg" alt="Context Christian Metalcore Band">
+    </div>
   </div>
+
+
+  <!--<div class="section">
+    <div class="grid-container">
+      <div class="col s12">
+        <img src="dist/img/striken.webp" alt="Stricken Smitten & Afflicted">
+      </div>
+      <div class="col s12">
+        <h2 class="center black-text">Stricken Smitten & Afflicted</h2>
+        <p class="center">4/10/2020</p>
+        <div class="row center p-50">
+          <a href="download-button" class="btn-large waves-effect waves-light white black-text btn"> Listen</a>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <section class="page-section bg-dark" id="Bio">
+
+    <div class="grid-container">
+      <div class="col">
+        <img src="dist/img/context-hj.jpg" alt="Context" class="album-cover">
+      </div>
+
+      <div class="col">
+        <h2 class="white-text">Biography</h2>
+        <hr class="divider mb">
+        <p class="white-text">
+          Context is a Christian Metal Band from Morgantown, WV. Context was founded in 2014 under the name Gatsby by
+          former members of I Killed Medusa. The band recorded their demo "As Bold As Lions", a two song EP shortly
+          after formation. Gatsby went on a hiatus due to numerous lineup changes until 2017 when founding members James
+          "Jam" Watkins, and Kodey "Chow" Watkins met Kyle Powers at their local church. <br>
+          The band then began writing
+          their new EP, and changed their name to Context. Their first single "Castaway" came out on Jun 23rd, 2018. The
+          full EP titled "Heart Journal" was independently recorded, produced, and released on July 1st 2018. This EP
+          was based on Bible Journal entries from vocalist Jam Watkins during his early years as a Christian. Context
+          remixed the EP and added three new songs to create the Heart Journal Deluxe Edition.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.js"></script>
+  <script src="dist/js/init.js"></script>
 </body>
 
 </html>
