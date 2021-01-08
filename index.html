@@ -7,6 +7,9 @@
   <title>Context</title>
   <link rel="stylesheet" href="dist/css/materialize.css">
   <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c30670b0a4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,15 +20,44 @@
             class="logo"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Home</a></li>
-          <li><a href="#Bio">Bio</a></li>
           <li><a href="music.html">Music</a></li>
+          <li><a href="#Bio">Bio</a></li>
           <li><a href="#">Videos</a></li>
+          <!--Social Media-->
+
+          <li>
+            <a href="https://www.facebook.com/cntxtband/"><i class="fab fa-facebook fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/cntxtband/" target=_blank id="profile-link"><i
+                class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCuy3VfYPSf4j3AdpTdG6rDw"><i class="fab fa-youtube fa-2x"></i></a>
+          </li>
+
         </ul>
         <ul id="nav-mobile" class="sidenav">
           <li><a href="#">Home</a></li>
-          <li><a href="#Bio">Bio</a></li>
           <li><a href="music.html">Music</a></li>
+          <li><a href="#Bio">Bio</a></li>
           <li><a href="#">Videos</a></li>
+          <br>
+          <!--Social Media-->
+          <div class="grid-container">
+            <div>
+              <i class="fab fa-facebook fa-4x"><a href="https://www.facebook.com/cntxtband/"></a></i>
+            </div>
+            <div>
+              <i class="fab fa-instagram fa-4x"><a href="https://www.instagram.com/cntxtband/" target=_blank
+                  id="profile-link"></a></i>
+            </div>
+            <div>
+              <i class="fab fa-youtube fa-4x"><a
+                  href="https://www.youtube.com/channel/UCuy3VfYPSf4j3AdpTdG6rDw"></a></i>
+            </div>
+          </div>
+
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons white-text">menu</i></a>
       </div>
@@ -55,46 +87,48 @@
     </div>
   </div>
 
-
-  <!--<div class="section">
-    <div class="grid-container">
-      <div class="col s12">
-        <img src="dist/img/striken.webp" alt="Stricken Smitten & Afflicted">
-      </div>
-      <div class="col s12">
-        <h2 class="center black-text">Stricken Smitten & Afflicted</h2>
-        <p class="center">4/10/2020</p>
-        <div class="row center p-50">
-          <a href="download-button" class="btn-large waves-effect waves-light white black-text btn"> Listen</a>
+  <section class="bg-dark">
+    <div class="section">
+      <div class="grid-container">
+        <div class="col s12 p-10">
+          <img src="dist/img/o-merry.webp" alt="God Rest Ye Little Gettlemen" class="album-cover">
+        </div>
+        <div class="col s12">
+          <h2 class="center white-text">God Rest Ye Little Gettlemen<br>(feat. Ben S. Dixon)</h2>
+          <p class="center white-text">9/27/2020</p>
+          <div class="row center p-50">
+            <a href="download-button" class="btn-large waves-effect waves-light white black-text btn"> Listen</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>-->
+  </section>
+
 
   <section class="page-section bg-dark" id="Bio">
 
-    <div class="grid-container">
-      <div class="col">
+    <!--<div class="col">
         <img src="dist/img/context-hj.jpg" alt="Context" class="album-cover">
-      </div>
+      </div>-->
 
-      <div class="col">
-        <h2 class="white-text">Biography</h2>
-        <hr class="divider mb">
-        <p class="white-text p-10">
-          Context is a Christian Metal Band from Morgantown, WV. Context was founded in 2014 under the name Gatsby by
-          former members of I Killed Medusa. The band recorded their demo "As Bold As Lions", a two song EP shortly
-          after formation. Gatsby went on a hiatus due to numerous lineup changes until 2017 when founding members James
-          "Jam" Watkins, and Kodey "Chow" Watkins met Kyle Powers at their local church. <br>
-          The band then began writing
-          their new EP, and changed their name to Context. Their first single "Castaway" came out on Jun 23rd, 2018. The
-          full EP titled "Heart Journal" was independently recorded, produced, and released on July 1st 2018. This EP
-          was based on Bible Journal entries from vocalist Jam Watkins during his early years as a Christian. Context
-          remixed the EP and added three new songs to create the Heart Journal Deluxe Edition.
-        </p>
-      </div>
-
+    <div class="col">
+      <h2 class="white-text center">Biography</h2>
+      <hr class="divider mb mg">
+      <p class="white-text p-10 center">
+        Context is a Christian Metal Band from Morgantown, WV. Their goal is to share the Gospel of Jesus Christ
+        through their passion of music. Context was founded in 2014 under the name Gatsby by
+        former members of I Killed Medusa. The band recorded their demo "As Bold As Lions", a two song EP shortly
+        after formation. Gatsby went on a hiatus due to numerous lineup changes until 2017 when founding members James
+        "Jam" Watkins, and Kodey "Chow" Watkins met Kyle Powers at their local church. <br>
+        The band then began writing
+        their new EP, and changed their name to Context. Their first single "Castaway" came out on Jun 23rd, 2018. The
+        full EP titled "Heart Journal" was independently recorded, produced, and released on July 1st 2018. This EP
+        was based on Bible Journal entries from vocalist Jam Watkins during his early years as a Christian. Context
+        remixed the EP and added three new songs to create the Heart Journal Deluxe Edition.
+      </p>
     </div>
+
+
   </section>
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
