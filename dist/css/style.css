@@ -67,6 +67,12 @@ hr {
   grid-template-columns: auto;
   margin: auto;
 }
+.music-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 2rem;
+  margin: auto;
+}
 .album-cover {
   width: 100%;
   height: 100%;
@@ -85,6 +91,9 @@ hr {
 }
 .bg-dark {
   background: black;
+}
+.bg-dark-blue {
+  background: #02072b;
 }
 .sticky {
   position: fixed;
@@ -110,11 +119,20 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
   }
+  .music-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-bottom: 60px;
+  }
 }
 
 @media (min-width: 1200px) {
   .parallax img {
     height: 110vh !important;
+  }
+  .music-section {
+    height: 50vh;
   }
 }
 
