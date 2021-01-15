@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Fjalla One';
+  src: url(FjallaOne-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +19,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Merriweather', serif;
+  font-family: 'Fjalla One', serif;
 }
 
 p {
