@@ -82,6 +82,9 @@ hr {
 .p-10 {
   padding: 0.625rem;
 }
+.p-l-10 {
+  padding-left: 0.625rem;
+}
 .p-50 {
   padding: 3.125rem;
 }
@@ -141,4 +144,56 @@ h4,
 h5,
 h6 {
   font-family: 'Fjalla One', sans-serif;
+}
+
+/*Form*/
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: rgb(255, 255, 255);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px !important;
+  line-height: 22px !important;
+  background-color: transparent !important;
+  border: 2px solid#020e64 !important;
+  transition: all 0.3s !important;
+  padding: 13px !important;
+  margin-bottom: 15px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  outline: 0 !important;
+}
+
+.feedback-input:focus {
+  border: 2px solid#020e64;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type='submit'] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #020e64;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type='submit']:hover {
+  background: #020e64;
 }
