@@ -197,3 +197,7 @@ textarea {
 [type='submit']:hover {
   background: #020e64;
 }
+
+footer p {
+  font-size: 0.9375rem;
+}
