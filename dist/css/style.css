@@ -127,7 +127,11 @@ hr {
     width: 60%;
   }
 }
-
+@media (max-width: 64rem) {
+  .music-pg-ht {
+    height: 15rem !important;
+  }
+}
 @media (min-width: 75rem) {
   .parallax img {
     height: 110vh !important;
