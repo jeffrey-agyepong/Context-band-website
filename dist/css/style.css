@@ -131,6 +131,9 @@ hr {
   .music-pg-ht {
     height: 15rem !important;
   }
+  .vw {
+    width: 80%;
+  }
 }
 @media (min-width: 75rem) {
   .parallax img {
