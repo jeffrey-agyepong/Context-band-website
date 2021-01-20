@@ -205,3 +205,10 @@ textarea {
 footer p {
   font-size: 0.9375rem;
 }
+
+video {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 60%;
+}
