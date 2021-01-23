@@ -168,6 +168,9 @@ hr {
   .album-title {
     visibility: visible;
   }
+  .parallax-container .parallax {
+    right: 20%;
+  }
 }
 /* Mobile Phone */
 @media (min-width: 37.5rem) {
