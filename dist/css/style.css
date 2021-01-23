@@ -70,7 +70,7 @@ hr {
   display: grid;
   grid-template-columns: auto;
   margin: auto;
-  grid-gap: 8px;
+  grid-gap: 10px;
 }
 
 .video-container {
