@@ -1904,8 +1904,9 @@ nav,
 }
 .hoverable:hover {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    0 6px 20px 0 rgba(221, 211, 211, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(22, 13, 151, 0.945);
 }
 .divider {
   height: 1px;
@@ -3458,7 +3459,7 @@ nav ul a.btn-floating > .material-icons {
   line-height: inherit;
 }
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #040e5a;
 }
 nav ul.left {
   float: left;
@@ -3916,7 +3917,7 @@ small {
 .card
   .card-action
   a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
+  color: #040e5a;
 }
 .card .card-reveal {
   padding: 24px;
@@ -4799,7 +4800,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 .sidenav .collapsible-header:hover,
 .sidenav.fixed .collapsible-header:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #040e5a;
 }
 .sidenav .collapsible-header i,
 .sidenav.fixed .collapsible-header i {
@@ -6317,10 +6318,10 @@ input[type='range']::-ms-thumb {
 .sidenav li > a.btn-large:hover,
 .sidenav li > a.btn-small:hover,
 .sidenav li > a.btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #040e5a;
 }
 .sidenav li > a.btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #040e5a;
 }
 .sidenav li > a > i,
 .sidenav li > a > [class^='mdi-'],
