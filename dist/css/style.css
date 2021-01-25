@@ -52,6 +52,21 @@ nav ul a {
 .sidenav i {
   color: rgb(0, 0, 0);
 }
+nav .sidenav-trigger {
+  margin-top: 20px;
+}
+.header_toggle > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+.header_toggle > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform-origin: 3px 1px;
+}
+
 @media only screen and (min-width: 993px) {
   .container {
     width: 80%;
