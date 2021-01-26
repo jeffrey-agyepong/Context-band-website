@@ -174,11 +174,7 @@ hr {
 .mb {
   margin-bottom: 1.25rem;
 }
-@media (max-width: 23.62rem) {
-  #index-banner {
-    background-position: right -80px center;
-  }
-}
+
 @media (max-width: 31.25rem) {
   h1 {
     font-size: 3rem;
@@ -194,7 +190,7 @@ hr {
   }
   #index-banner {
     background-image: url(../img/hero.webp);
-    background-position: center;
+    background-position: right -80px center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
