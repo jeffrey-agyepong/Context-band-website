@@ -44,6 +44,7 @@ p {
   background-size: cover;
   background-position: top center;
   height: 100vh;
+  height: fill-available;
 }
 .page-section {
   padding: 1.25rem;
@@ -189,8 +190,9 @@ hr {
   .album-title {
     visibility: visible;
   }
-  .parallax-container .parallax {
-    right: 20%;
+  #index-banner {
+    background-position: bottom center;
+    height: 80vh;
   }
 }
 /* Mobile Phone */
@@ -207,7 +209,7 @@ hr {
 }
 @media (max-width: 64rem) {
   .music-pg-ht {
-    height: 15rem !important;
+    height: 12rem !important;
   }
   .vw {
     width: 80%;
@@ -215,6 +217,9 @@ hr {
 }
 /* Screens 1200px and Larger*/
 @media (min-width: 75rem) {
+  .music-pg-ht {
+    height: 14rem !important;
+  }
   .hero-text {
     margin-top: 10rem;
   }
