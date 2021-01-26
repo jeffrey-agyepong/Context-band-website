@@ -216,6 +216,12 @@ hr {
   }
 }
 
+#social-mob {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.sidenav li > a {
+  font-size: 20px;
+}
 h1,
 h2,
 h3,
@@ -225,6 +231,9 @@ h6 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+.lh {
+  line-height: 30px;
+}
 /*Form*/
 form {
   max-width: 420px;
