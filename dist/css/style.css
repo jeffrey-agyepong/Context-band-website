@@ -197,6 +197,7 @@ hr {
     background-position: bottom center;
     background-size: cover;
     height: 80vh;
+    margin-left: -30px;
   }
 }
 /* Mobile Phone */
