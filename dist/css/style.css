@@ -39,6 +39,9 @@ p {
 .parallax img {
   height: 120vh !important;
 }*/
+.hero-text {
+  margin-top: 2.5rem;
+}
 #index-banner {
   background-image: url(../img/hero.webp);
   background-size: cover;
@@ -192,6 +195,7 @@ hr {
   }
   #index-banner {
     background-position: bottom center;
+    background-size: cover;
     height: 80vh;
   }
 }
