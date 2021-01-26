@@ -32,7 +32,9 @@ p {
   max-width: 250px;
   margin: 0.3125rem;
 }
-
+.hero-text {
+  margin-top: 7rem;
+}
 .parallax-container {
   height: 43.75rem;
 }
