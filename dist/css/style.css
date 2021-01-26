@@ -194,7 +194,9 @@ hr {
     visibility: visible;
   }
   #index-banner {
-    background-position: bottom center;
+    background-image: url(../img/hero.webp);
+    background-position: right -80px center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
   }
