@@ -33,12 +33,6 @@ p {
   margin: 0.3125rem;
 }
 
-/*.parallax-container {
-  height: 43.75rem;
-}
-.parallax img {
-  height: 120vh !important;
-}*/
 .hero-text {
   margin-top: 2.5rem;
 }
@@ -47,7 +41,7 @@ p {
   background-size: cover;
   background-position: top center;
   height: 100vh;
-  height: fill-available;
+  background-repeat: no-repeat;
 }
 .page-section {
   padding: 1.25rem;
@@ -180,6 +174,11 @@ hr {
 .mb {
   margin-bottom: 1.25rem;
 }
+@media (max-width: 23.62rem) {
+  #index-banner {
+    background-position: right -80px center;
+  }
+}
 @media (max-width: 31.25rem) {
   h1 {
     font-size: 3rem;
@@ -195,7 +194,7 @@ hr {
   }
   #index-banner {
     background-image: url(../img/hero.webp);
-    background-position: right -110px center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -231,6 +230,9 @@ hr {
   }
   .music-section {
     height: 50vh;
+  }
+  #index-banner {
+    background-position: top -60px center;
   }
 }
 
