@@ -32,14 +32,18 @@ p {
   max-width: 250px;
   margin: 0.3125rem;
 }
-.hero-text {
-  margin-top: 7rem;
-}
-.parallax-container {
+
+/*.parallax-container {
   height: 43.75rem;
 }
 .parallax img {
   height: 120vh !important;
+}*/
+#index-banner {
+  background-image: url(../img/hero.webp);
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
 }
 .page-section {
   padding: 1.25rem;
@@ -209,9 +213,10 @@ hr {
     width: 80%;
   }
 }
+/* Screens 1200px and Larger*/
 @media (min-width: 75rem) {
-  .parallax img {
-    height: 110vh !important;
+  .hero-text {
+    margin-top: 10rem;
   }
   .music-section {
     height: 50vh;
