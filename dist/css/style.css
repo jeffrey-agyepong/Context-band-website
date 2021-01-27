@@ -25,6 +25,10 @@ body {
 p {
   font-size: 25px;
 }
+.lyrics {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+}
 .logo {
   height: auto;
   width: auto;
