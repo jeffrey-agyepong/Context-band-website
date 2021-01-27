@@ -18,3 +18,9 @@ $('.hover').mouseout(function(){
   $('.image_holder').css('opacity','1');
 });
 */
+function showhide()
+{
+  var div = document.getElementById("post");
+  div.classList.toggle('hidden');
+}
+

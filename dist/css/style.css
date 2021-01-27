@@ -316,3 +316,7 @@ video {
   height: auto;
   width: 60%;
 }
+
+.hidden {
+  display: none;
+}
