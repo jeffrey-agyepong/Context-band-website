@@ -50,6 +50,7 @@ p {
 .page-section {
   padding: 1.25rem;
 }
+
 nav ul a {
   color: rgb(255, 255, 255);
 }
@@ -222,6 +223,10 @@ hr {
 }
 /* Screens 1200px and Larger*/
 @media (min-width: 75rem) {
+  .mg-50 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
   .music-pg-ht {
     height: 14rem !important;
   }
