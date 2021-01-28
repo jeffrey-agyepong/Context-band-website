@@ -212,6 +212,9 @@ hr {
     margin-left: 1px;
     margin-right: 1px;
   }
+  .mg-50 {
+    margin: auto;
+  }
 }
 @media (max-width: 64rem) {
   .music-pg-ht {
@@ -220,12 +223,15 @@ hr {
   .vw {
     width: 80%;
   }
+  .mg-50 {
+    margin: auto;
+  }
 }
+
 /* Screens 1200px and Larger*/
 @media (min-width: 75rem) {
   .mg-50 {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0 220px;
   }
   .music-pg-ht {
     height: 14rem !important;
