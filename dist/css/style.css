@@ -29,6 +29,13 @@ p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 17px;
 }
+.tri-logo {
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  max-width: 150px;
+  margin: 0.3125rem;
+}
 .logo {
   height: auto;
   width: auto;
@@ -216,6 +223,9 @@ hr {
 @media (min-width: 37.5rem) {
   .logo {
     width: 60%;
+  }
+  .tri-logo {
+    width: 40%;
   }
 
   .grid-container {
