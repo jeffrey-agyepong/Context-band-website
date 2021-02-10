@@ -227,6 +227,14 @@ hr {
     background-size: cover;
     height: 80vh;
   }
+  .center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    max-width: 300px;
+  }
 }
 /* Mobile Devices */
 @media (min-width: 37.5rem) {
