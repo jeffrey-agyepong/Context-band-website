@@ -35,7 +35,9 @@ p {
   max-height: 180px;
   max-width: 180px;
 }
-
+.w-80 {
+  width: 80%;
+}
 .logo {
   height: auto;
   width: 100%;
