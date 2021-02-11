@@ -18,7 +18,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: visible;
+  overflow-x: hidden;
   font-family: 'Fjalla One', serif;
 }
 
@@ -35,6 +35,7 @@ p {
   max-height: 180px;
   max-width: 180px;
 }
+
 .logo {
   height: auto;
   width: 100%;
@@ -237,7 +238,7 @@ hr {
   }
 }
 /* Mobile Devices */
-@media (min-width: 37.5rem) {
+@media (min-width: 35.5rem) {
   .logo {
     width: 60%;
   }
