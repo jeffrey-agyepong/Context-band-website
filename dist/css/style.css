@@ -35,9 +35,7 @@ p {
   max-height: 180px;
   max-width: 180px;
 }
-.w-80 {
-  width: 80% !important;
-}
+
 .logo {
   height: auto;
   width: 100%;
@@ -237,6 +235,9 @@ hr {
   }
   form {
     max-width: 300px;
+  }
+  .w-80 {
+    width: 85% !important;
   }
 }
 /* Mobile Devices */
