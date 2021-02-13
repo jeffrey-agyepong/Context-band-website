@@ -115,10 +115,7 @@ hr {
   margin: auto;
   grid-gap: 10px;
 }
-.test {
-  display: block;
-  margin: 0 auto;
-}
+
 .video-container {
   overflow: hidden;
   position: relative;
