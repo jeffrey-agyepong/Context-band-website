@@ -1,2 +1,2 @@
 # Context-band-website
-Website for Christian metalcore band, Context
+Responsive website for Christian metalcore band, Context
