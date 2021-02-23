@@ -1823,7 +1823,7 @@ ul:not(.browser-default) > li {
   list-style-type: none;
 }
 a {
-  color: #039be5;
+  color: #0334e5;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
