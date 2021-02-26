@@ -74,6 +74,14 @@ p {
   background-repeat: no-repeat;
   width: 100%;
 }
+#header {
+  box-shadow: rgb(81, 87, 90) 0px -1px 0px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
+  font-family: 'Aldivaro Stamp Demo';
+  font-size: 15px;
+  border-bottom: 2px solid rgb(245, 245, 245);
+}
+
 .page-section {
   padding: 1.25rem;
 }
