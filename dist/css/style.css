@@ -31,11 +31,11 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 35px;
   font-family: 'Monitoric Regular';
 }
 .lyrics {
-  font-size: 17px;
+  font-size: 1.31rem;
 }
 .tri-logo {
   height: auto;
@@ -330,6 +330,9 @@ details > summary::-webkit-details-marker {
   .w-80 {
     width: 85% !important;
   }
+  video {
+    width: 100% !important;
+  }
 }
 /* Mobile Devices */
 @media (min-width: 35.5rem) {
@@ -403,7 +406,7 @@ h6 {
   font-family: 'Monitoric Regular', sans-serif;
 }
 h5 {
-  font-size: 20px;
+  font-size: 1.875‬rem;
 }
 ul li {
   font-family: 'Monitoric Regular';
@@ -464,7 +467,7 @@ textarea {
 }
 
 footer p {
-  font-size: 0.9375rem;
+  font-size: 1.2rem;
 }
 
 video {
