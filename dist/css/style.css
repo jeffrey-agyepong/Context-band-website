@@ -3,8 +3,8 @@
   src: url(FjallaOne-Regular.ttf);
 }
 @font-face {
-  font-family: 'Aldivaro Stamp Demo';
-  src: url(AldivaroStampDemo.otf);
+  font-family: 'Oswald';
+  src: url(Oswald-Regular.ttf);
 }
 @font-face {
   font-family: 'Monitoric Regular';
@@ -27,12 +27,14 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: visible;
-  font-family: 'Aldivaro Stamp Demo';
+  font-family: 'Oswald';
 }
 
 p {
-  font-size: 35px;
-  font-family: 'Monitoric Regular';
+  font-size: 1.5625rem;
+  font-family: 'Oswald';
+  text-align: left;
+  color: rgb(255, 255, 255);
 }
 .lyrics {
   font-size: 1.31rem;
@@ -77,7 +79,7 @@ p {
 #header {
   box-shadow: rgb(81, 87, 90) 0px -1px 0px 0px inset;
   text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
-  font-family: 'Aldivaro Stamp Demo';
+  font-family: 'Oswald';
   font-size: 15px;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
@@ -255,13 +257,9 @@ summary {
   text-align: left;
   cursor: pointer;
   position: relative;
-  font-family: 'Monitoric Regular';
+  font-family: 'Oswald';
 }
 
-p {
-  text-align: left;
-  color: #fff;
-}
 details[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;
 }
@@ -426,24 +424,24 @@ details > summary::-webkit-details-marker {
   font-size: 20px;
 }
 .nav-wrapper li {
-  font-family: 'Aldivaro Stamp Demo';
+  font-family: 'Oswald';
 }
 h1,
 h2 {
-  font-family: 'Aldivaro Stamp Demo';
+  font-family: 'Oswald';
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Monitoric Regular', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 h5 {
   font-size: 1.875‬rem;
 }
 ul li {
-  font-family: 'Monitoric Regular';
+  font-family: 'Oswald';
 }
 .lh {
   line-height: 30px;
@@ -501,7 +499,7 @@ textarea {
 }
 
 footer p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 video {
