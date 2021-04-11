@@ -36,6 +36,9 @@ p {
   text-align: left;
   color: rgb(255, 255, 255);
 }
+.small {
+  font-variant: small-caps;
+}
 .lyrics {
   font-size: 1.31rem;
 }
@@ -286,9 +289,7 @@ details[open] > summary::after {
 details > summary::-webkit-details-marker {
   display: none;
 }
-.album-title {
-  text-decoration: underline;
-}
+
 .p-10 {
   padding: 0.625rem;
 }
@@ -512,5 +513,3 @@ video {
 .hidden {
   display: none;
 }
-
-/*Music Player*/
