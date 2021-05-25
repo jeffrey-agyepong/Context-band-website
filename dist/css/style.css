@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Fjalla One';
+  font-family: "Fjalla One";
   src: url(FjallaOne-Regular.ttf);
 }
 @font-face {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   src: url(Oswald-Regular.ttf);
 }
 @font-face {
-  font-family: 'Monitoric Regular';
+  font-family: "Monitoric Regular";
   src: url(monitorica.regular.otf);
 }
 * {
@@ -27,12 +27,12 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: visible;
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 
 p {
   font-size: 1.5625rem;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   text-align: left;
   color: rgb(255, 255, 255);
 }
@@ -82,7 +82,7 @@ p {
 #header {
   box-shadow: rgb(81, 87, 90) 0px -1px 0px 0px inset;
   text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 15px;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
@@ -124,7 +124,7 @@ nav .sidenav-trigger {
 .video-container::after {
   padding-top: 56.25%;
   display: block;
-  content: '';
+  content: "";
 }
 .video-container iframe {
   position: absolute;
@@ -168,7 +168,7 @@ hr {
 .video-container::after {
   padding-top: 56.25%;
   display: block;
-  content: '';
+  content: "";
 }
 .video-container iframe {
   position: absolute;
@@ -260,7 +260,7 @@ summary {
   text-align: left;
   cursor: pointer;
   position: relative;
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 
 details[open] summary ~ * {
@@ -278,12 +278,12 @@ details[open] summary ~ * {
 }
 details > summary::after {
   position: absolute;
-  content: '+';
+  content: "+";
   right: 20px;
 }
 details[open] > summary::after {
   position: absolute;
-  content: '-';
+  content: "-";
   right: 20px;
 }
 details > summary::-webkit-details-marker {
@@ -324,6 +324,9 @@ details > summary::-webkit-details-marker {
 }
 /*Mobile Devices*/
 @media (max-width: 31.25rem) {
+  .brand-logo {
+    text-align: center;
+  }
   .tri-logo {
     display: block;
     margin-left: auto;
@@ -369,6 +372,9 @@ details > summary::-webkit-details-marker {
 }
 /* Mobile Devices */
 @media (min-width: 35.5rem) {
+  .brand-logo {
+    text-align: center;
+  }
   .logo {
     width: 60%;
   }
@@ -425,24 +431,24 @@ details > summary::-webkit-details-marker {
   font-size: 20px;
 }
 .nav-wrapper li {
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 h1,
 h2 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 h5 {
   font-size: 1.875‬rem;
 }
 ul li {
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 .lh {
   line-height: 30px;
@@ -480,8 +486,8 @@ textarea {
   resize: vertical;
 }
 
-[type='submit'] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
   background: #020e64;
   border-radius: 5px;
@@ -495,7 +501,7 @@ textarea {
   margin-top: -4px;
   font-weight: 700;
 }
-[type='submit']:hover {
+[type="submit"]:hover {
   background: #020e64;
 }
 
