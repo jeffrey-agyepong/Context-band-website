@@ -69,7 +69,7 @@ p {
   min-width: 50px;
 }
 .hero-text {
-  margin-top: 2.5rem;
+  margin-top: 10rem;
 }
 #index-banner {
   background-image: url(../img/hero.webp);
@@ -414,7 +414,7 @@ details > summary::-webkit-details-marker {
     height: 14rem !important;
   }
   .hero-text {
-    margin-top: 10rem;
+    margin-top: 16rem;
   }
   .music-section {
     height: 50vh;
