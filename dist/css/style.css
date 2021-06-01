@@ -80,11 +80,10 @@ p {
   width: 100%;
 }
 #header {
-  box-shadow: rgb(81, 87, 90) 0px -1px 0px 0px inset;
   text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
   font-family: "Oswald";
   font-size: 15px;
-  border-bottom: 1px solid rgb(245, 245, 245);
+  border-bottom: 5px solid rgb(2 14 100);
 }
 
 .page-section {
@@ -291,7 +290,7 @@ details > summary::-webkit-details-marker {
 }
 
 .p-10 {
-  padding: 0.625rem;
+  padding: 0.625rem !important;
 }
 .p-l-10 {
   padding-left: 0.625rem;
@@ -505,10 +504,13 @@ textarea {
   background: #020e64;
 }
 
+/*Footer*/
+.footer {
+  border-top: 5px solid #ffffff;
+}
 footer p {
   font-size: 1rem;
 }
-
 video {
   display: block;
   margin: auto;

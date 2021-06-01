@@ -2,7 +2,7 @@ class Footer extends HTMLElement {
   constructor(){
     super();
   }
-  
+
   connectedCallback(){
   this.innerHTML=`<div class="footer bg-dark section">
   <div class="grid-container center" id="social-mob">
@@ -20,7 +20,7 @@ class Footer extends HTMLElement {
     <div class="section"></div>
     <div class="grid-container">
       <p class="center"><a href="cookies-policy.html" target="_blank">Cookies Policy</a></p>
-      <p class="center">Copyright© 2021 Context</p>
+      <p class="center">© 2021 Context</p>
       <p class="center">Developed by <a href="https://conciseweb.netlify.app/" target="_blank"
           rel="noopener noreferrer">Concise Web Designs</a>
       </p>
