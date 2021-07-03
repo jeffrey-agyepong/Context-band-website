@@ -1,89 +1,712 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!--META CHARSET-->
-  <meta charset="UTF-8">
-  <!-- META VIEWPORT-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- META EDGE-->
-  <meta http-equiv="X-UA-Compatible" content="
-  ">
-  <!-- TITLE -->
-  <title>Kingdoms - Single | Context</title>
-  <!-- META DESCRIPTION -->
-  <meta name="description" content=" Context is a Christian Metal Band from Morgantown, WV. Their goal is to share the Gospel of Jesus Christ
-  through their passion of music.">
-  <!-- META KEYWORDS -->
-  <meta name="keywords" content="Context, Christian Metal, Christian Metalcore, Metal, Metalcore, Reformedcore, Reformed Metal, Band, Christian, Music, The Divide, Kingdoms,">
+  <head>
+    <!--META CHARSET-->
+    <meta charset="UTF-8" />
+    <!-- META VIEWPORT-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- META EDGE-->
+    <meta http-equiv="X-UA-Compatible" content="" />
+    <!-- TITLE -->
+    <title>Kingdoms | Context</title>
+    <!-- META DESCRIPTION -->
+    <meta name="description" content="Context is a Christian Metal Band from Morgantown, WV. Their goal is to share the Gospel of Jesus Christ
+  through their passion of music." />
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Context, Christian Metal, Christian Metalcore, Metal, Metalcore, Reformedcore, Reformed Metal, Band, Christian, Music, Heart Journal - EP " />
 
+    <link rel="stylesheet" href="dist/css/materialize.min.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/all.min.css" />
 
-  <link rel="stylesheet" href="dist/css/materialize.min.css">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <link rel="stylesheet" href="dist/css/all.min.css">
+    <script src="dist/components/header.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet" />
 
-  <script src="dist/components/header.js"></script>
-  <script src="dist/components/footer.js"></script>
-  <!-- Font Awesome -->
-  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist\img\favicon-96x96.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBX39B8LFL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  <link rel="shortcut icon" type="image/ico" href="dist\img\favicon-96x96.png">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBX39B8LFL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      gtag("config", "G-ZBX39B8LFL");
+    </script>
+  </head>
 
-    gtag('config', 'G-ZBX39B8LFL');
-  </script>
-</head>
+  <body>
+    <header-component></header-component>
 
-<body>
-  <header-component></header-component>
-
-  <div class="section bg-dark-blue"></div>
-  <section class="section bg-dark-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m6 14">
-          <img src="dist/img/context-kingdoms.jpg" alt="Kingdoms" class="album-cover hover">
-        </div>
-        <div class="col s12 m6 14">
-          <h5 class="white-text p-10">Kingdoms</h5>
-          <div class="col s12 m8 14">
-            <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
-            <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
-            <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
-            <a href="" target="_blank"><i class="fab fa-amazon fa-3x white-text"></i></a>
-            <a href="https://cntxt.bandcamp.com/album/" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+    <div class="section bg-dark-blue"></div>
+    <section class="section bg-dark-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 14">
+            <img src="dist/img/context-kingdoms.jpg" alt="" class="album-cover hover" />
+            <!--Bandcamp-->
+            <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4104796124/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a
+                href="https://cntxt.bandcamp.com/album/kingdoms">Kingdoms by Context</a></iframe>
           </div>
-          <br><br><br>
-          <div class="row p-l-10">
-            <span class="btn-large waves-effect waves-light white black-text btn" onclick="showhide()">
-              Lyrics
-            </span>
-          </div>
-          <div id="post" class="hidden">
-            <p class="white-text p-10 lyrics">
+          <div class="col s12 m6 14">
+            <h5 class="white-text p-10">Kingdoms</h5>
+            <div class="col s12 m8 14">
+              <a href="https://open.spotify.com/album/38R4JlNNmLaXWT4B97Foou?si=cN5Ng1c9QvWLhHL2Oq1wWQ&dl_branch=1" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+              <a href="https://music.apple.com/us/album/kingdoms/1574397840" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+              <a href="https://www.youtube.com/watch?v=ZY4vvJkrAKU&list=PLECay82Kh7XfL-ryzPMGAJwtiA92y80KU" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+              <a href="https://www.amazon.com/gp/product/B09883VNNF/ref=dm_ws_sp_ps_dp" target="_blank"><i class="fab fa-amazon fa-3x white-text"></i></a>
+              <a href="https://cntxt.bandcamp.com/album/kingdoms" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+            </div>
 
-            </p>
+            <div class="col s12 m9 14">
+              <main>
+                <details>
+                  <summary class="white-text">1. Ransom (feat. Jonathan Franco of Mothaltar)</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      False gods <br />
+                      False gods <br />
+                      I see<br />
+                      False gods<br />
+                      Within my heart<br />
+                      I see false gods<br />
+
+                      I keep seeking castles of wood and rock<br />
+                      You build Kingdoms of living stone<br />
+                      I look to food to satisfy<br />
+                      You give bread of eternal life<br />
+
+                      Ransom me!<br />
+
+                      What was it like to walk with You?<br />
+                      What was it like to see You on that tree<br />
+                      What was it like<br />
+                      To see that stone be rolled away<br />
+                      Hope has dawned (x2)<br />
+
+                      Though I deny You<br />
+                      You ransom me<br />
+                      Though I deny You<br />
+                      You paid it all<br />
+                      <br>
+                      Mark 10: 35-45, Romans 3: 21-26, 1 Peter 2: 24-25,<br />
+                      2 Corinthians 5:21, Mark 5: 1-20, Galatians 4:8,<br />
+                      1 Thesalonians 1: 9-10, Romans 5: 12-21.
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">2. Sojourn</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      Fall off the edge<br />
+                      Of the Earth<br />
+                      You’ve chased after<br />
+                      The Wind<br />
+
+                      You climb<br />
+                      To reach the highest peak<br />
+                      You reach<br />
+                      You grasp at nothing<br />
+
+                      Your works<br />
+                      Cant save<br />
+                      And yet you seek<br />
+                      After<br />
+                      All that<br />
+                      Cannot save<br />
+
+                      You say<br />
+                      Truth is yours<br />
+                      But truth is<br />
+                      Universal<br />
+
+                      What is<br />
+                      True for you<br />
+                      Must be<br />
+                      true for me<br />
+
+                      It is not fluid<br />
+                      It does not shift<br />
+                      Why can’t you see<br />
+                      You must change<br />
+
+                      You don’t belong here<br />
+                      You don’t belong<br />
+                      You keep on searching<br />
+                      This place is not your home<br />
+
+                      You’ll never find<br />
+                      Where you belong<br />
+                      Apart from him<br />
+                      You can’t belong<br />
+                      You’ll never find<br />
+                      Where you belong<br />
+                      Apart from him<br />
+                      You can’t belong<br />
+
+                      Why don’t you open your eyes?<br />
+                      You can have peace<br />
+                      His mercy is as vast as the sea<br />
+
+                      Death is the last<br />
+                      Great adventure<br />
+                      Find your assurance<br />
+                      In Christ, the King<br />
+                      Death is the last<br />
+                      Great adventure<br />
+                      Find your assurance<br />
+                      In Christ the King<br />
+
+                      Stop building upon<br />
+                      Things that will fall<br />
+                      And storing your treasure<br />
+                      Where moth and rust destroy<br />
+
+                      Stop twisting truth<br />
+                      To meet your desires<br />
+                      God is truth<br />
+                      His word is truth<br />
+                      <br>
+                      Matthew 6:19-24, John 14:1-6, John 1, Leviticus 22:17-18,
+                      Isaiah 16:4, Deuteronomy 10:17-22, Deuteronomy 27-28,
+                      Deuteronomy 14:28-29, Genesis 26:3, Ruth 1:1, Hebrews
+                      11:9, 1 Peter 1:13-23, Ephesians 2, Romans 5: 1-8, Romans
+                      9: 14-16, Ephesians 1:7, 1 Timothy 1: 15-16, Exodus 33:19,
+                      Acts 4:12, Acts 20:24, Titus 2:11.
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">3. Hosea 1</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      I have to tell you bad news before I tell you good news, <br>
+                      you see sin is not safe in God’s presence.<br>
+                      God, will
+                      destroy our kingdoms that we build to protect ourselves
+                      from his righteous judgement. <br>
+                      And as C.S. Lewis beautifully gets as the Kids are going to meet Aslan they
+                      ask “Is he safe?”<br>
+                      "Who said anything about safe? 'Course
+                      he isn't safe. But he's good. He's the King, I tell you.”
+                      You see the Promise made to Ahab for worshipping Baal,
+                      would come to completion here in Hosea’s time. God would
+                      destroy the false worship of Baal in the very place Israel
+                      worshipped Baal, the valley of Jezreel.<br>
+                      You see as we
+                      continue to build our own kingdoms God will destroy them,
+                      he will tear them apart brick by brick because he is not
+                      interested in our false worship. So how does the book of
+                      Hosea point to Christ here? Christ is the true son of God.
+                      Just as Jezreel is Hosea’s. Christ by his blood will set
+                      his people free from the false idols that they worship,
+                      and though they have been unfaithful, Christ was faithful
+                      even to the point of death on the Cross. You see Jezreel
+                      means God sows, referring to the fertility of the land the
+                      abundance of life, and in John 15: 1-17 Jesus teaches us
+                      that life is in him. That in him is the abundance of life
+                      in him is love. On Christ, the wrath of God is poured out
+                      for the sins of those who believe in him. Just as the
+                      Valley of Jezreel would be the place in which God’s wrath
+                      is poured out against sin, Christ is the place in which
+                      God’s wrath is poured out on sin for our sake. You see
+                      those of you who do not belong to Christ, who are not sons
+                      or daughters, you are not adopted in the same way but you
+                      can be. It’s by faith and faith alone, through grace
+                      alone, by Christ alone, that you can be saved. You can
+                      know a Father who loves you, who isn’t safe, but is King.
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">4. Healer</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      Make way<br>
+                      Make way<br>
+                      I’ve got to see this king<br>
+
+                      But the pressure<br>
+                      Keeps building<br><br>
+                      They’re pushing<br>
+                      And shoving me<br>
+                      I can hardly see<br>
+                      I can hardly breathe<br>
+                      Darkness closes in<br>
+                      They are all surrounding me<br>
+
+                      If only I could get to him<br>
+                      To touch a section of his robe<br>
+                      I’ve heard that he’s a healer<br>
+                      At least I sure hope so<br>
+
+                      To look upon his splendor<br>
+                      This great physician<br>
+                      I need only to touch a thread<br>
+                      Of his long and tattered robe<br>
+
+                      Oh God man will you heal me?<br>
+                      I know you’re the king of kings<br>
+
+                      And before Abraham was<br>
+                      The great I am you have been<br>
+                      Though I am sick and dying<br>
+                      Though I should be cast off from the clean<br>
+                      You have walked among me<br>
+                      You can make me clean<br>
+
+                      The crowds do not marvel<br>
+                      His friends do not stop<br>
+                      Focusing on the task at hand<br>
+
+                      This Son of Man has healed me<br>
+                      He brings Sons and Daughters home<br>
+                      By his blood he’ll adopt me<br>
+                      He will never let me go<br>
+
+                      I need more than physical healing<br>
+                      I need you to save my soul<br>
+                      Though the price is high<br>
+                      You have paid it all<br>
+                      <br>
+                      John 8: 57-59, Luke 8: 43-48, Mark 5: 21-34, Matthew 9:18-26, Exodus 3: 10-16, Psalm 103, Isaiah 53:5,<br> 1 Peter 2:24, Psalm 147:3, Psalm 107: 19-20.
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">5. Abide</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      How can I be saved<br>
+                      When I have a long list of sins<br>
+                      When my works don't work<br>
+                      And I wear my sins like tattoos on my skin<br>
+
+                      I guess this is what you call Grace<br>
+
+                      And how can I be forgiven<br>
+                      When I struggle to forgive others<br>
+                      Of the same things that I have been forgiven of<br>
+                      In bitterness is where I live<br>
+
+                      I’ve been bought for something else<br>
+
+                      And how am I not condemned<br>
+                      When I’ve committed the crime<br>
+                      Over and over again<br>
+                      And it’s clear that I am guilty<br>
+
+                      And yet someone died in my place<br>
+
+                      How do you love me<br>
+                      When daily I reject you<br>
+                      And my love grows cold for you<br>
+                      And I lose sight of who I am in you<br>
+                      And who I am, is not who I want to be<br>
+                      Thanks be to God<br>
+                      Salvation is all on You<br>
+
+                      Trust in the Lord<br>
+                      Call upon his name<br>
+                      You can’t save yourself<br>
+                      You can’t repay all your sins with how<br>
+                      Holy you try to be<br>
+                      Look to the Lord<br>
+                      He’s your strength and shield<br>
+                      He can fix the most broken of vessels<br>
+                      Call upon His name<br>
+
+                      I’ve spent my life<br>
+                      Only serving myself<br>
+                      Whatever I can do<br>
+                      For my own kingdom<br>
+
+                      But I’m tired of looking in this mirror<br>
+                      Seeing a man who claims one thing<br>
+                      With his lips<br>
+                      And with his actions spreads death<br>
+                      Oh great Vinedresser<br>
+                      Do not cast me off<br>
+                      Shepherd of my soul<br>
+                      Mend my heart<br>
+                      Make me whole<br>
+
+                      Make me whole<br>
+
+                      I’ve been seeing the<br>
+                      World in black and grey<br>
+                      Give me eyes to see<br>
+                      The complexities of grace<br>
+                      How deaf must I go<br>
+                      I hear of your love for me<br>
+                      I forget your face<br>
+                      I forget your face<br>
+                      Make me whole<br>
+                      Make me whole<br>
+                      <br>
+                      John 15: 4-11, John 8:3, 2 John 1:19, 1 John 2: 24-28, Galatians 2:20, Ephesians 3: 17-19, 1 John 3:24, Proverbs 3: 5-6, Psalm 37:4-6, Psalm 33:20, Isaiah 26:3, Psalm 56:3, Jeremiah 17:7.
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">6. Stoneheart (feat. Jeremy Schaeffer of Earth
+                    Groans)</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      I can’t deny<br>
+                      something plagues my people<br>
+                      A sickness so down deep<br>
+                      it disgusts me<br>
+                      It’s so unlike me<br>
+                      Though it seems natural<br>
+
+                      Your bodies will decay<br>
+                      Your hearts will be black<br>
+
+                      I did not cause you<br>
+                      to be this way<br>
+                      Though I will allow it<br>
+                      To show you the way<br>
+
+                      I must become the monster whom I am seeking to destroy<br>
+                      I will enter the fire<br>
+                      To show you what you mean to me<br>
+                      My justice will be done<br>
+                      My righteousness I will trade<br>
+                      I’ll use the old accursed tree<br>
+                      To manifest my grace<br>
+                      I will crack the sky,<br>
+                      the day they pierce my side<br>
+
+                      Mercy has not been known before<br>
+                      In such a way as the cross<br>
+                      I will break my body<br>
+                      I will spill my blood<br>
+                      So you can be my people<br>
+                      And I will be your God<br>
+
+                      Stone heart<br>
+                      Stone heart<br>
+                      I will remove your<br>
+                      Stone heart<br>
+
+                      Stone heart<br>
+                      Stone heart<br>
+                      I will remove your<br>
+                      Stone heart<br>
+
+                      At the foot of that cross<br>
+                      The serpent was crushed<br>
+                      At the foot of that cross<br>
+                      You bought a people for yourself<br>
+                      At the foot of the cross<br>
+                      You set the captives free<br>
+                      At the foot of the cross<br>
+                      You saved me!<br>
+                      <br>
+                      Ezekiel 11: 19-20, Ezekiel 36: 26-28, Ezekiel 37: 27, Jeremiah 24:7, Jeremiah 31:33, Jeremiah 32:40, Hebrews 8:10, 2 Corinthians 3:3, Deuteronomy 30: 6, 1 Peter 2:9, Titus 2: 11-14, Zechariah 8:8, Hosea 2: 23, Matthew 27, John
+                      14:6, Genesis 3:16
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">7. Psalm 126</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">Don’t Waste Your Suffering there is something produced in us in the midst of suffering and the Psalmist indicates one way we can waste our stuffing is not laboring for joy.
+                      <br> When we refuse to pray, we
+                      are not laboring for joy. When we are not reading our Bibles regularly, we are not laboring for joy. When we are not meeting with God’s people to seeking to serve one another, we are not laboring for joy. And through patient
+                      endurance and humility before your king, God is producing in you a realization of eternal joy. That is why men and women throughout church history have faced death, singing songs of praise, because, despite their circumstances,
+                      Christ Jesus is their joy. And we live in a culture of instant gratification, and despite having what we want now, we continue to ask for more. <br> <br>
+
+                      And what is peculiar about joy in Christ is this, he has already provided you a means to lasting joy by his perfect life, his death, and resurrection on your behalf. But there is even greater things to come when he returns. So
+                      fight for joy, daily! That’s what the Psalmist wants us to see, fight for joy in the midst of suffering because the suffering we experience makes our joy in Christ all the more sweet. You will never have joy in Christ in the
+                      midst of your suffering in the midst of your impatience with God, and you will not see your impatience for what it is, without humility. And so, All three of these points are linked together, so if you have no joy in Christ ask
+                      yourself “In what ways do I need to patiently wait on the Lord?” And, “In what ways do I need to humble myself and Come before the Lord for help, comfort, peace, and joy?”
+
+                      Don’t give up, don’t waste your suffering. Despite your suffering in the year, God has been gracious to give us work to do. He has given us children to raise, Wives to lead, husbands to help, brothers and sisters to care for, a
+                      body to serve, friends who need to know Jesus, family members that need to know Jesus. We work through tears remembering the hope of the Gospel that Christ is coming back, that he will wipe away every tear from our eyes,
+                      <br><br>
+                      http://www.wvcrossroads.com/project/lessons-learned/ps-126
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">8. The Divide</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      Why is there not<br />
+                      Unity<br />
+                      Among ourselves<br />
+                      Why are we always<br />
+                      Fighting<br />
+                      Why is there not<br />
+                      Unity<br />
+                      Among ourselves<br />
+
+                      I want to keep it to myself<br />
+                      And never speak out<br />
+                      About my sin within<br />
+                      and those around me<br />
+
+                      So many times I have felt the hurt<br />
+
+                      I keep on pushing<br />
+                      Everyone away<br />
+                      It keeps on leaving<br />
+                      A Crimson stain<br />
+                      I keep on searching<br />
+                      For affirmation<br />
+                      I keep on longing<br />
+                      For Friendship<br />
+                      And every time<br />
+                      Someone walks away<br />
+                      That’s another person<br />
+                      I can’t help but chase<br />
+
+                      Open my eyes to see my sin<br />
+                      Bring my brothers back<br />
+                      Jesus Friend of sinners<br />
+                      You’re all we need<br />
+
+                      As I wait Patiently<br />
+                      I’ll turn the other cheek<br />
+                      Waiting for you to see<br />
+                      Christ has bought you and me<br />
+
+                      Because of him we are free<br />
+                      So I’ll turn the other cheek<br />
+                      Waiting for you to see<br />
+                      Christ has bought you and me
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">9. Kingdoms</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      Who’s Kingdom am I building?<br />
+                      My idols grow day by day Consuming me<br />
+                      Who’s kingdom am I building?<br />
+                      Mine is not here to stay<br />
+
+                      Lord, break these idols and watch them fall.<br />
+                      Sustain my soul and be my all<br />
+
+                      When I write these songs of praise<br />
+                      Is it for you or me?<br />
+                      Raised altars to my own name<br />
+                      They crumbled at your feet<br />
+
+                      You prayed “on earth as is above”<br />
+                      Father, you sent your Son in love<br />
+                      Though I still fail everyday<br />
+                      you saw it fit to give me grace<br />
+
+                      I built towers and monuments<br />
+                      (of all my achievements)<br />
+                      When shown your righteousness <br />(I see the truth)<br />
+                      I can’t save myself (no matter what I do)<br />
+                      These towers can’t hold me up to you<br />
+
+                      Lord, break these idols and watch them fall<br />
+                      Sustain my soul and be my all<br />
+
+                      You prayed “on earth as is above”<br />
+                      Father, you sent your Son jin love<br />
+                      Though I still fail everyday<br />
+                      you sought fit to give me grace<br />
+
+                      Who’s Kingdom am I building?<br />
+                      My idols grow day by day<br />
+                      Who’s kingdom am I building?<br />
+                      Mine is not here to stay<br />
+
+                      I built towers and monuments<br />
+                      (of all my achievements)<br />
+                      When shown your righteousness<br />
+                      (I see the truth)<br />
+                      I can’t save myself (no matter what I do)<br />
+                      These towers can’t hold me up to you<br />
+                      <br>
+                      1 Chronicles 28: 1-8, 2 Chronicles 13, Matthew 6:33, 1
+                      Chronicles 29: 1, Matthew 4:17,<br />
+                      Luke 12:32, John 3:3, Ephesians 2:19-20, Zachariah 14:9,
+                      Mark 1:15, Matthew 5.
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">10. Lights</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      These lights surround me<br>
+                      I’m to blind to see<br>
+                      X3<br>
+                      I’ve been in the dark for too long<br>
+
+                      I’ve been looking at the sky<br>
+                      Trying to find my place<br>
+                      I keep thinking that the world<br>
+                      Revolves around me<br>
+                      Living like I am a king<br>
+                      Trying to find my place<br>
+                      I keep thinking that the world<br>
+                      Revolves around me<br>
+
+                      I’ve been walking around so blind<br>
+                      But my soul<br>
+                      Thirsts for salvation<br>
+                      I know I need something<br>
+                      More than myself<br>
+                      I thought I was new<br>
+                      But I feel the same<br>
+
+                      I can feel your warmth<br>
+                      You grow near to me<br>
+                      Return to me<br>
+                      Return to me<br>
+                      I hear you calling my name<br>
+                      Return to me<br>
+                      Return to me<br>
+                      You bring me peace<br>
+
+                      Light of the world<br>
+                      Shine on me<br>
+                      Light of the world<br>
+                      Shine on me<br>
+
+                      I’ve been walking around so blind<br>
+                      But my soul<br>
+                      Thirst for salvation<br>
+                      I know I need something<br>
+                      More than myself<br>
+                      I thought I was new<br>
+                      But I feel the same<br>
+
+                      Rejoice O downcast heart<br>
+                      Rejoice again I say rejoice<br>
+                      For the sins of your youth<br>
+                      Will not be remembered<br>
+                      <br>
+                      John 8, Matthew 25:14-16, Psalm 27:5, John 1:14, John 12: 27-50, John 3: 14, John 6: 60-71, John 5: 18-47, Ephesians 2, Romans 3: 23-26, John 1:1-4,<br> Hebrews 1: 1-4, Genesis 1-3
+                    </p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">11. Lights</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      Light of the world<br>
+                      By Darkness slain<br>
+                      Nothing could compare<br>
+                      To this grace<br>
+
+                      The debt of your soul<br>
+                      Has been paid in full<br>
+                      By the all powerful creator<br>
+                      All that is needed<br>
+                      Has been granted to you<br>
+                      All that is old<br>
+                      Has been made new<br>
+
+                      Rejoice<br>
+                      It’s by grace alone that I’ve been saved<br>
+                      It’s by grace alone that I’ve been saved<br>
+
+                      I was walking around so blind<br>
+                      But now in You Lord my hope lies<br>
+                      God You have given me life<br>
+                      Now use me Lord to be your light<br><br>
+
+                      John 8, Matthew 25:14-16, Psalm 27:5, John 1:14, John 12: 27-50, John 3: 14, John 6: 60-71, John 5: 18-47, Ephesians 2, Romans 3: 23-26, John 1:1-4,<br> Hebrews 1: 1-4, Genesis 1-3</p>
+                  </div>
+                </details>
+                <details>
+                  <summary class="white-text">12. Maranatha</summary>
+                  <div class="faq__content">
+                    <p class="white-text lyrics">
+                      You came for me when I was lost<br>
+                      Wandering in the darkness<br>
+                      Never counting the cost<br>
+                      Of my sin against you<br>
+                      I couldn’t call to you<br>
+                      On my own<br>
+
+                      Because of sin<br>
+                      I was separated<br>
+                      from you<br>
+                      You sought me out<br>
+                      To call me a son<br>
+                      You spilled your blood<br>
+                      You gave your life<br>
+
+                      And what more words can I say<br>
+                      And what more things can I do<br>
+                      You paid it all for me<br>
+                      And Now I praise you<br>
+                      And what more words can I say<br>
+                      And what more things can I do<br>
+                      You paid it all for me<br>
+                      And Now I praise you<br>
+
+                      My peace is found<br>
+                      In the one Who is<br>
+                      and was and is to come<br>
+                      My hope renewed<br>
+                      I was lost and now I’m found<br>
+                      I’ve found the truth<br>
+                      Your word gives me life<br>
+                      Now I know true comfort<br>
+                      To live for you<br>
+
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+
+                      Maranatha<br>
+                      Lord Jesus come<br>
+                      You will end all my suffering<br>
+                      You will make all things new<br>
+                      Maranatha<br>
+                      Lord Jesus come<br>
+                      You will end all my suffering<br>
+                      You will make all things new<br>
+
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br>
+                      Grace and peace be multiplied to you<br><br>
+
+                      1 Corinthians 16:22-24, Matthew 16: 27, Matthew 24: 42-44, Matthew 25:31, Matthew 26:64, Mark 8:38, Luke 21:25-27, John 14 1-6 Philippians 3:20, Philippians 4:5, 1 Thesalonians 1:10, 1 Thesalonians 4:13-17, 1 Thesalonians 5:1-3,
+                      1 Timothy 6: 13-15,<br> Titus 2:13, Hebrews 9: 28, 2 Peter 3:4 2 Peter 1:2,<br> 2 Peter 3:18, John 14: 25-31
+                    </p>
+                  </div>
+                </details>
+              </main>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <!--Footer-->
-  <footer-component></footer-component>
-  <script src="dist/js/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="dist/js/materialize.min.js"></script>
-  <script src="dist/js/init.js"></script>
-</body>
+    <!--Footer-->
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https:/code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
 
 </html>

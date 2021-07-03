@@ -250,7 +250,7 @@ summary {
       rgba(37, 37, 37, 0.04) 50%,
       rgba(37, 37, 37, 0.04) 100%
     ),
-    linear-gradient(90deg, rgb(34, 105, 237), rgb(26, 11, 53));
+    linear-gradient(90deg, #030f24, rgb(26, 11, 53));
   color: #fff;
   padding: 1rem;
   margin-bottom: 1rem;
